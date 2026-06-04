@@ -1,0 +1,24 @@
+# Core
+torch>=2.1.0
+numpy>=1.24.0
+opencv-python>=4.8.0
+tqdm>=4.65.0
+
+# Roboflow / Supervision
+supervision==0.27.0
+inference-gpu==1.0.2
+inference-models==0.19.2
+
+# Roboflow Sports (basketball branch)
+# Install with: pip install git+https://github.com/roboflow/sports.git@feat/basketball
+
+# Image processing
+Pillow==11.1.0
+scikit-image==0.25.2
+
+# NLP / OCR helpers
+transformers>=4.40.0
+num2words>=0.5.13
+
+# Environment
+python-dotenv>=1.0.0
