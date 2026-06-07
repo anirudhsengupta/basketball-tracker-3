@@ -4,7 +4,6 @@ Tracks players across a basketball game video using Roboflow models + SAM2 segme
 
 - **Player masks** with team colors and `#NUMBER Name` labels
 - **Top-down court minimap** showing real-time player positions
-- **Shot detection** (jump shots, layups, dunks, made/miss)
 
 ---
 
@@ -13,7 +12,7 @@ Tracks players across a basketball game video using Roboflow models + SAM2 segme
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/basketball-tracker.git
+git clone https://github.com/anirudhsengupta/basketball-tracker-3.git
 cd basketball-tracker
 ```
 
@@ -48,7 +47,7 @@ cp .env.example .env
 
 ### 5. Add your video
 
-Place your game clip inside a `source/` folder:
+Place your game clip inside a `source/` folder (google drive):
 
 ```
 source/
