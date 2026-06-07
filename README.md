@@ -92,7 +92,7 @@ python main.py --video source/game.mp4 --mode shots   # shot detection
 
 | Model | Source | Purpose |
 |-------|--------|---------|
-| RF-DETR (basketball-player-detection) | Roboflow | Detects players, jersey numbers, ball, shot events |
+| RF-DETR (basketball-player-detection) | Roboflow | Detects players, jersey numbers |
 | SAM2 Real-Time | Meta / Gy920 fork | Segments and tracks players frame-by-frame |
 | SmolVLM2 (basketball-jersey-numbers-ocr) | Roboflow | Reads jersey numbers from crops |
 | Court keypoint model | Roboflow | Detects court landmarks for homography |
